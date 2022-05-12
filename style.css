@@ -13,6 +13,7 @@ body {
     margin-right:auto;
 }
 .bod {
+
     position: relative;
     left: 77px;
     top: 40px;
@@ -30,7 +31,7 @@ h1 {
     font-weight: 700;
     font-size: 64px;
     width: 600px;
-    text-align: left;
+
 }
 h2 {
     font-family: 'Space Mono', monospace;
@@ -38,7 +39,7 @@ h2 {
     font-size: 24px;
     width: 385px;
     color: #4F4F4F;
-    text-align: left;
+
 }
 .mainright {
     display: flex;
@@ -59,7 +60,36 @@ button {
     font-family: 'Space Mono', monospace;
 }
 .footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #BDBDBD;
     position: relative;
-    bottom: -150px;
+    bottom: -300px;
     text-align: center;
+
+}
+a {
+    color: #BDBDBD;
+}
+
+@media screen and (max-width:1500px) {
+    .main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bod {
+        position: relative;
+        margin: 0 auto;
+        left: 30px;
+    }
+    img {
+        max-width: 286.83px;
+    }
+    h1 {
+        font-size: 48px;
+        width: 400px;
+    }
+    h2 {
+        font-size: 18px;
+        width: 328px;
+    }
 }
